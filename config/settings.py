@@ -39,12 +39,12 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'home.apps.HomeConfig',
     'accounts.apps.AccountsConfig',
-    'supplier.apps.SupplierConfig',
-    'customer.apps.CustomerConfig',
     'warehouse.apps.WarehouseConfig',
-    'product.apps.ProductConfig',
-    'purchaseinvoice.apps.PurchaseinvoiceConfig',
-    'salesinvoice.apps.SalesinvoiceConfig',
+    # 'supplier.apps.SupplierConfig',
+    # 'customer.apps.CustomerConfig',
+    # 'product.apps.ProductConfig',
+    # 'purchaseinvoice.apps.PurchaseinvoiceConfig',
+    # 'salesinvoice.apps.SalesinvoiceConfig',
 ]
 
 MIDDLEWARE = [

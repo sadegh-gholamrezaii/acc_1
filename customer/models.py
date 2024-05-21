@@ -8,7 +8,6 @@ class Customer(models.Model):
     created = models.DateTimeField(auto_now_add=True, verbose_name="زمان ساخته شدن")
     updated = models.DateTimeField(auto_add=True, verbose_name="زمان بروزرسانی")
     
-
     class Meta:
         verbose_name = "مشتری"
         verbose_name_plural = "مشتری ها"

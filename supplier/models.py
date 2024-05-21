@@ -6,7 +6,7 @@ class Supplier(models.Model):
     address = models.TextField(verbose_name="آدرس")
     website = models.URLField(blank=True, null=True, verbose_name="وبسایت")
     created = models.DateTimeField(auto_now_add=True, verbose_name="زمان ساخته شدن")
-    updated = models.DateTimeField(auto_add=True, verbose_name="زمان بروزرسانی")
+    updated = models.DateTimeField(auto_now=True, verbose_name="زمان بروزرسانی")
 
     class Meta:
         verbose_name = "تامین کننده"
